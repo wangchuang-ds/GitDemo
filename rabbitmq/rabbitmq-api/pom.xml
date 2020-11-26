@@ -6,7 +6,11 @@
 
     <groupId>cn.tedu</groupId>
     <artifactId>rabbitmq-api</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>gitDemo</module>
+    </modules>
     <dependencies>
         <dependency>
             <groupId>com.rabbitmq</groupId>
