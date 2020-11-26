@@ -28,7 +28,7 @@ public class Consumer {
             }
         };
 
-        //消费者取消时的回调对象
+        //消费者取消时的回调对象、、、、、
         CancelCallback cancel = new CancelCallback() {
             @Override
             public void handle(String consumerTag) throws IOException {
